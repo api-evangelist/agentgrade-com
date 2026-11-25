@@ -66,7 +66,7 @@
 
 AgentGrade is an AI agent readiness scanner that evaluates websites for compliance with protocols such as MCP, llms.txt, x402 payments, A2A, and more. It provides free instant grading and remediation guidance, helping site owners make their services discoverable and usable by autonomous AI agents. The platform offers tools like llms.txt validator, MCP server tester, and robots.txt generator, and publishes extensive knowledge base articles covering standards, payment protocols, and best practices for AI agents.
 
-**Areas:** AI · AgentReadiness · MCP · llms.txt · Payments
+**Areas:** Artificial Intelligence · Agent Readiness · MCP · llms.txt · Payments
 
 ## AgentGrade on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for AgentGrade is published on APIs.io rather than in this r
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentgrade-com-mcp.yml](https://apis.io/servers/agentgrade-com/agentgrade-com-mcp-yml/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
@@ -90,15 +96,15 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentgrade Com Authentication](https://apis.io/security/agentgrade-com/agentgrade-com-authentication/)
-- [Agentgrade Com Domain Security](https://apis.io/security/agentgrade-com/agentgrade-com-domain-security/)
-- [Agentgrade Com Vulnerability Disclosure](https://apis.io/security/agentgrade-com/agentgrade-com-vulnerability-disclosure/)
+- [AgentGrade Authentication](https://apis.io/security/agentgrade-com/agentgrade-com-authentication/)
+- [AgentGrade Domain Security](https://apis.io/security/agentgrade-com/agentgrade-com-domain-security/)
+- [AgentGrade Vulnerability Disclosure](https://apis.io/security/agentgrade-com/agentgrade-com-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentgrade Com Scopes](https://apis.io/scopes/agentgrade-com/agentgrade-com-scopes/)
+- [AgentGrade Scopes](https://apis.io/scopes/agentgrade-com/agentgrade-com-scopes/)
 
 ## Where to find this API
 
@@ -112,18 +118,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 29.9** — thin · rubric 0.26.0 · scored 2026-10-31
+**Kin Score 25.0** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
+| Discoverability | 81.7 |
 | Contract quality | 24.0 |
-| Contract governance | 65.5 |
-| Operational transparency | 15.8 |
+| Contract governance | 18.2 |
+| Operational transparency | 14.3 |
 | Developer ergonomics | 35.0 |
 | Access clarity | 0.0 |
 
-**Agent readiness 22.9** — agent-aware
+**Agent readiness 23.3** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -149,6 +155,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 22.5** — Payments
 
